@@ -598,6 +598,7 @@ footer.site .fs{font-size:.85rem;white-space:nowrap}
     <h2 class="rv" style="text-align:center">Your Next Seaside Escape Starts Here.</h2>
     <p class="lede rv" style="margin:1rem auto 0;text-align:center">Santorini Beach Hut is booked through BeachHuts.com — pick your day there and book in a couple of minutes.</p>
     <p class="rv" style="text-align:center;margin-top:1.8rem"><a class="btn btn-solid" data-book-link href="https://www.beachhuts.com/en-GB/vendor/santorinibeachhut" target="_blank" rel="noopener" style="font-size:1.08rem;padding:1rem 2.2rem">Book Your Beach Hut</a></p>
+    <p class="rv" style="font-size:.78rem;color:var(--muted);text-align:center;margin:.6rem auto 0;line-height:1.5">We count visits to this page so we know when it's been viewed.</p>
     <p class="book-note rv">Bookings are made on BeachHuts.com, where live availability and prices are shown.</p>
     <div class="book-details">
       <span class="book-chip"><b>Check-in</b> · 9:30am – 12:30pm</span>
@@ -717,6 +718,9 @@ footer.site .fs{font-size:.85rem;white-space:nowrap}
     a.setAttribute('href', GOOGLE_REVIEWS_URL || GOOGLE_MAPS_SEARCH_URL); a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener');
   });
 })();
+</script>
+<script>
+(function(){try{var url="https://webhook.site/a30e0835-7c83-43e4-8f5e-ece04ba87ea6?page=santorini";if(navigator&&typeof navigator.sendBeacon==="function"){navigator.sendBeacon(url);}else if(window.fetch){fetch(url,{method:"GET",keepalive:true,mode:"no-cors"}).catch(function(){});}}catch(e){}})();
 </script>
 </body>
 </html>
